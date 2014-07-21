@@ -2,7 +2,7 @@ import unittest, sys
 from lxml.tests.common_imports import make_doctest, HelperTestCase
 
 try:
-    import BeautifulSoup
+    import bs4
     BS_INSTALLED = True
 except ImportError:
     BS_INSTALLED = False

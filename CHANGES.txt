@@ -2,6 +2,10 @@
 lxml changelog
 ==============
 
+FORKED
+======
+Moved from using BeautifulSoup3 (module BeautifulSoup) to BeautifulSoup4 (module bs4)
+
 3.3.5 (2014-04-18)
 ==================
 
