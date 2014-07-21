@@ -4,7 +4,7 @@ __doc__ = """External interface to the BeautifulSoup HTML parser.
 __all__ = ["fromstring", "parse", "convert_tree"]
 
 from lxml import etree, html
-from bs4 import \
+from BeautifulSoup import \
      BeautifulSoup, Tag, Comment, ProcessingInstruction, NavigableString
 
 
